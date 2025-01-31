@@ -1,0 +1,13 @@
+prefix=C:/Users/Hamzee/Music/Tanveer_Freelancing_Projects/De_Pr_3_Flask_CSS_Java/flcssJ/Library
+exec_prefix=C:/Users/Hamzee/Music/Tanveer_Freelancing_Projects/De_Pr_3_Flask_CSS_Java/flcssJ/Library
+libdir=C:/Users/Hamzee/Music/Tanveer_Freelancing_Projects/De_Pr_3_Flask_CSS_Java/flcssJ/Library/lib
+sharedlibdir=C:/Users/Hamzee/Music/Tanveer_Freelancing_Projects/De_Pr_3_Flask_CSS_Java/flcssJ/Library/lib
+includedir=C:/Users/Hamzee/Music/Tanveer_Freelancing_Projects/De_Pr_3_Flask_CSS_Java/flcssJ/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
